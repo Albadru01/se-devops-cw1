@@ -9,9 +9,9 @@ def decimal_to_hex(decimal_value):
  print(f"Converting the Decimal Value {num} to Hex...")
 
  while num != 0:
- rem = num % 16
- hexadecimal = hex_chars[rem] + hexadecimal
- num //= 16
+     rem = num % 16
+     hexadecimal = hex_chars[rem] + hexadecimal
+     num //= 16
 
  print(f"Hexadecimal representation is: {hexadecimal}")
  return hexadecimal # Return the hexadecimal value for testing
